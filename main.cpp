@@ -11,6 +11,7 @@ int main()
   double b2 = 0, q = 0;
   double b2 = 0, q = 0;
   scanf("%d%d", &b1, &b3);
+  scanf("%d%d", &b1, &b3);
   q = sqrt(b3 / b1);
   b2 = b1 * q;
   
