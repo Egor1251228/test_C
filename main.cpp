@@ -12,6 +12,8 @@ int main()
   scanf("%d%d", &b1, &b3);
   q = sqrt(b3 / b1);
   b2 = b1 * q;
+  
+  printf("%.0lf %.0lf\n", b2, q);
   printf("%.0lf %.0lf\n", b2, q);
   return 0;
 }
